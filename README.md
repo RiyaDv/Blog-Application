@@ -1,4 +1,4 @@
-***Blog Application (Social Media Platform)***
+# **Blog Application (Social Media Platform)**
 
 A modern web application for managing user profiles, posts, and comments. This application allows users to create and manage their profiles, add posts, and interact with other users through comments.
 
@@ -30,7 +30,7 @@ A modern web application for managing user profiles, posts, and comments. This a
 
    ```bash
    git clone https://github.com/RiyaDv/Blog-Application.git
-   cd social-media-platform
+   cd Blog-Application
    ```
 
 2. **Install dependencies:**
@@ -113,4 +113,3 @@ social-media-platform/
 - Bootstrap for responsive design
 - FontAwesome for icons
 - The Express and MongoDB communities
-```
