@@ -1,0 +1,25 @@
+const express = require("express");
+const User = require("../model/User");
+const {
+  getLogin,
+  login,
+  getRegister,
+  register,
+  logout,
+} = require("../controllers/authController");
+
+const authRoutes = express.Router();
+
+// Route
+authRoutes.get("/login", getLogin);
+
+authRoutes.get("/register", getRegister);
+
+authRoutes.get("/logout", logout);
+
+// Route Logic
+authRoutes.post("/login", login);
+
+authRoutes.post("/register", register);
+
+module.exports = authRoutes;
